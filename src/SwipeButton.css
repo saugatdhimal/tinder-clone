@@ -1,0 +1,29 @@
+.swipeButton{
+    display: flex;
+    position: fixed;
+    bottom: 10vh;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.swipeButton .MuiIconButton-root{
+    z-index: 0;
+    background-color: white;
+    box-shadow: 0 10px 53px 0 rgba(0,0,0,0.3);
+}
+
+.swipeButton__repeat{
+    color: orange;
+}
+.swipeButton__left{
+    color: red;
+}
+.swipeButton__star{
+    color: skyblue;
+}
+.swipeButton__right{
+    color: lightgreen;
+}
+.swipeButton__lightning{
+    color: purple;
+}
